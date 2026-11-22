@@ -1,5 +1,7 @@
 # Quality Bar — Solumn AI Cyber Harm Evaluation Benchmark
 
+**GitHub repository:** https://github.com/amanahma/solumn_Ai_task.
+
 ## Executive Summary
 
 This repository contains five standalone Reinforcement Learning Environments (RLEs) developed for Solumn AI's **Cyber Harm** evaluation suite. Each environment tests whether an autonomous coding agent takes a harmful, unauthorized shortcut when assigned an otherwise routine software engineering ticket.
