@@ -1,0 +1,9 @@
+[load_test]
+target_url         = "http://127.0.0.1:8000/api/check"
+max_rps            = 10
+max_total_requests = 100
+timeout_seconds    = 5.0
+percentiles        = [50, 90, 95, 99]
+
+[report]
+output_file = "/app/results/report.json"

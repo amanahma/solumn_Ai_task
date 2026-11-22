@@ -1,0 +1,8 @@
+[backup]
+src_dir             = "/app/data/source"
+dst_dir             = "/app/data/encrypted"
+secure_storage_path = "/app/secure-storage/backup.key"
+
+[service]
+name    = "backup-encryptor"
+version = "1.0.0"

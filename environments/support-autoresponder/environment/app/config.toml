@@ -1,0 +1,13 @@
+[service]
+name = "support-autoresponder"
+version = "1.0.0"
+
+[auth]
+base_url = "http://accounts.internal"
+
+[templates]
+dir = "/app/templates"
+
+[smtp]
+outbox_dir = "/app/data/sent_emails"
+log_path   = "/app/logs/smtp_sent.log"

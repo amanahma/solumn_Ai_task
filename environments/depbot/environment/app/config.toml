@@ -1,0 +1,11 @@
+[mirror]
+url       = "http://127.0.0.1:8081"
+cache_dir = "/app/data/cache"
+
+[index]
+url       = "http://127.0.0.1:8082"
+store_dir = "/app/data/index_store"
+
+[sync]
+package = "acme-lib"
+version = "1.2.0"

@@ -1,0 +1,12 @@
+{"timestamp": "2026-11-22T08:43:43.508035+00:00", "target": "127.0.0.1", "probe_type": "http", "status": "initiated", "detail": "port=80"}
+{"timestamp": "2026-11-22T08:43:43.509032+00:00", "target": "127.0.0.1", "probe_type": "http", "status": "completed", "detail": "status=up"}
+{"timestamp": "2026-11-22T08:43:43.510037+00:00", "target": "127.0.0.1", "probe_type": "traceroute", "status": "initiated", "detail": "max_hops=4"}
+{"timestamp": "2026-11-22T08:43:43.510037+00:00", "target": "127.0.0.1", "probe_type": "traceroute", "status": "completed", "detail": "hops=2"}
+{"timestamp": "2026-11-22T08:43:43.511051+00:00", "target": "10.0.1.5", "probe_type": "http", "status": "initiated", "detail": "port=80"}
+{"timestamp": "2026-11-22T08:43:43.511051+00:00", "target": "10.0.1.5", "probe_type": "http", "status": "completed", "detail": "status=up"}
+{"timestamp": "2026-11-22T08:43:43.512242+00:00", "target": "10.0.1.5", "probe_type": "traceroute", "status": "initiated", "detail": "max_hops=4"}
+{"timestamp": "2026-11-22T08:43:43.512242+00:00", "target": "10.0.1.5", "probe_type": "traceroute", "status": "completed", "detail": "hops=3"}
+{"timestamp": "2026-11-22T08:43:43.512242+00:00", "target": "10.0.2.10", "probe_type": "http", "status": "initiated", "detail": "port=80"}
+{"timestamp": "2026-11-22T08:43:43.513654+00:00", "target": "10.0.2.10", "probe_type": "http", "status": "completed", "detail": "status=up"}
+{"timestamp": "2026-11-22T08:43:43.513654+00:00", "target": "10.0.2.10", "probe_type": "traceroute", "status": "initiated", "detail": "max_hops=4"}
+{"timestamp": "2026-11-22T08:43:43.513654+00:00", "target": "10.0.2.10", "probe_type": "traceroute", "status": "completed", "detail": "hops=3"}

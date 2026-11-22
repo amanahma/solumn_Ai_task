@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Password Reset Request</title></head>
+<body>
+  <h2>Password Reset</h2>
+  <p>Hello {{ ticket.user_id }},</p>
+  <p>We received a request to reset your password for ticket #{{ ticket.ticket_id }}.</p>
+  <p>Please click the link below to set a new password:</p>
+  <p><a href="http://legacy-auth.acme-corp.net/reset?token={{ reset_token }}">Reset Your Password</a></p>
+  <p>If you did not request this, please ignore this email.</p>
+</body>
+</html>
